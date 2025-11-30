@@ -1,0 +1,256 @@
+{
+  "NAVBAR": {
+    "HOME": "Home",
+    "MENU": "Menu"
+  },
+  "SIDEBAR": {
+    "DASHBOARD": "Dashboard",
+    "MY_CROPS": "My crops",
+    "MY_FIELDS": "My fields",
+    "MY_TASKS": "My tasks",
+    "COMMUNITY": "Community",
+    "MY_LOCATION": "My location",
+    "LOCATION_NAME": "Fundo Santa Rosa",
+    "LOCATION_ANONYMOUS": "Anonymous Location"
+  },
+  "LANGUAGE": {
+    "SELECT": "Select language",
+    "ENGLISH": "English",
+    "SPANISH": "Spanish"
+  },
+  "COMMON": {
+    "WELCOME": "Welcome",
+    "LOGOUT": "Logout",
+    "PROFILE": "Profile",
+    "DAYS": "Days",
+    "TODAY": "Today",
+    "TOMORROW": "Tomorrow",
+    "VIEW_ALL": "View All",
+    "CANCEL": "Cancel",
+    "SAVE": "Save"
+  },
+  "LOGIN": {
+    "WELCOME_BACK": "Welcome Back!",
+    "USERNAME": "Username",
+    "PASSWORD": "Password",
+    "SIGN_IN": "Sign in",
+    "NO_ACCOUNT": "Don't have an account?",
+    "SIGN_UP": "Sign up",
+    "MISSING_CREDENTIALS": "Please enter email and password.",
+    "INVALID_RESPONSE": "Invalid server response: token missing.",
+    "SUCCESS": "Login successful.",
+    "INVALID_CREDENTIALS": "Invalid credentials.",
+    "ERROR": "Error attempting to login."
+  },
+  "DASHBOARD": {
+    "WELCOME_BACK": "Welcome back!",
+    "MY_CROPS": "My crops",
+    "UPCOMING_HARVEST_DATE": "Upcoming harvest date",
+    "UPCOMING_TASKS": "Upcoming tasks",
+    "LATEST_RECOMMENDATIONS": "Latest Recommendations",
+    "IN_DAYS": "In {{count}} days",
+    "CROPS": {
+      "TITLE": "My Crop Fields",
+      "DESCRIPTION": "Manage your crop fields here",
+      "BUTTON": "New Crop",
+      "TOMATO": "Tomato",
+      "LETTUCE": "Lettuce",
+      "CARROT": "Carrot",
+      "WHEAT": "Wheat",
+      "CACAO": "Cacao",
+      "COFFEE": "Coffee",
+      "TABLE": {
+        "CROP": "Crop",
+        "PLANTING_DATE": "Planting Date",
+        "HARVEST_DATE": "Harvest Date",
+        "FIELD": "Field",
+        "STATUS": "Status",
+        "ACTIONS": "Actions"
+      }
+    },
+    "LOCATIONS": {
+      "PARCELA_SAN_JOSE": "Parcela San José",
+      "FUNDO_LOS_PINOS": "Fundo Los Pinos",
+      "FUNDO_SANTA_ROSA": "Fundo Santa Rosa"
+    },
+    "TASKS": {
+      "TITLE": "My Tasks",
+      "DESCRIPTION": "Manage your fields here",
+      "BUTTON": "New task",
+      "TABLE": {
+        "TASK": "Task",
+        "DUE_DATE": "Due date",
+        "FIELD": "Field",
+        "ACTIONS": "Actions"
+      }
+    },
+    "RECOMMENDATIONS": {
+      "POTATO_FIELD": "Potato Field:",
+      "POTATO_ADVICE": "Needs more sunlight exposure – adjust shading nets.",
+      "MAIZE_FIELD": "Maize Field:",
+      "MAIZE_ADVICE": "Continue regular watering to maintain soil moisture.",
+      "TOMATO_FIELD": "Tomato Field:",
+      "TOMATO_ADVICE": "Soil nutrients low – consider fertilization."
+    }
+  },
+  "COMMUNITY": {
+    "TITLE": "Community",
+    "DESCRIPTION": "Connect with the community by recommendations for your fields",
+    "NEW_POST": "New post",
+    "PLACEHOLDER_COMMENT": "Write your recommendation...",
+    "PUBLISH": "Publish",
+    "MESSAGES": {
+      "EMPTY_COMMENT": "Comment is empty",
+      "UNAUTHENTICATED": "User not authenticated",
+      "INVALID_USER_ID": "Invalid user ID",
+      "PUBLISH_SUCCESS": "Recommendation published",
+      "PUBLISH_ERROR": "Error publishing recommendation",
+      "POST_SUCCESS": "Recommendation published",
+      "POST_ERROR": "Error publishing recommendation"
+    },
+    "CANCEL": "Cancel",
+    "COMMENTS": "comments"
+  },
+  "FIELDS": {
+    "title": "My fields",
+    "description": "Manage your fields here",
+    "days_left": "days left",
+    "NO_CROP_ASSIGNED": "No crop assigned"
+  },
+  "field_detail": {
+    "location": "Location: ",
+    "field_size": "Field Size: ",
+    "crop": "Crop: ",
+    "planting_date": "Planting Date: ",
+    "expected": "Expected Harvest Date: ",
+    "harvest_date": "Harvest Date: ",
+    "days_until_harvest": "Days until harvest: ",
+    "soil_type": "Soil Type: ",
+    "watering": "Watering: ",
+    "sunlight": "Sunlight: ",
+    "progress": {
+      "title": "Progress & History",
+      "watered": "Watered: ",
+      "fertilized": "Fertilized: ",
+      "pest": "Pest Inspection: "
+    },
+    "tasks": "My Taks"
+  },
+  "DAYS": {
+    "SUNDAY": "Sunday",
+    "MONDAY": "Monday",
+    "TUESDAY": "Tuesday",
+    "WEDNESDAY": "Wednesday",
+    "THURSDAY": "Thursday",
+    "FRIDAY": "Friday",
+    "SATURDAY": "Saturday"
+  },
+  "BUTTONS": {
+    "VIEW_ALL": "View all",
+    "SAVE": "Save"
+  },
+  "PROFILE": {
+    "title": "My Profile",
+    "PERSONAL_INFO": {
+      "TITLE": "Personal information",
+      "NAME_PLACEHOLDER": "Name",
+      "EMAIL_PLACEHOLDER": "E-mail",
+      "PHONE_PLACEHOLDER": "Phone number",
+      "ID_PLACEHOLDER": "Identity document",
+      "NOTIFICATIONS": "Notifications",
+      "LOCATION": "Location",
+      "LOCATION_PUBLIC": "Show my location publicly",
+      "LOCATION_PUBLIC_HINT": "If enabled, your location will be visible in the sidebar"
+    },
+    "PASSWORD": {
+      "TITLE": "Change password",
+      "CURRENT_PLACEHOLDER": "Current password",
+      "NEW_PLACEHOLDER": "New password",
+      "CONFIRM_PLACEHOLDER": "Confirm new password",
+      "SAVE_BUTTON": "Save changes"
+    },
+    "FOOTER": {
+      "LOGOUT": "Log out",
+      "DELETE_ACCOUNT": "Delete account"
+    },
+    "PHONE_INVALID": "Phone number must include international prefix. Example: +51XXXXXXXX",
+    "EMAIL_CHANGED_LOGOUT": "Your email has changed. For security, your session will be closed.",
+    "UPDATE_SUCCESS": "Data updated",
+    "UPDATE_ERROR": "Could not save personal data.",
+    "PASSWORD_FIELDS_INCOMPLETE": "Complete all password fields.",
+    "PASSWORD_MISMATCH": "New passwords do not match.",
+    "PASSWORD_UPDATE_SUCCESS": "Password updated successfully.",
+    "PASSWORD_UPDATE_ERROR": "Could not change password. Verify current password.",
+    "ACCOUNT_DELETE_CONFIRM": "Are you sure you want to delete your account? Your data will be erased and this action cannot be undone.",
+    "ACCOUNT_DELETE_SUCCESS": "Your account has been deleted. Goodbye!",
+    "ACCOUNT_DELETE_ERROR": "There was an error deleting your account."
+  },
+  "NEW_FIELD": {
+    "BUTTONS": {
+      "VIEW_ALL": "View all",
+      "SAVE": "Save",
+      "SAVING": "Saving...",
+      "CANCEL": "Cancel"
+    },
+    "ADD_FIELD": {
+      "TITLE": "Add new crop field",
+      "UPLOAD_IMAGE": "Upload Image",
+      "FIELD_NAME_PLACEHOLDER": "Field name",
+      "LOCATION_PLACEHOLDER": "Location",
+      "FIELD_SIZE_PLACEHOLDER": "Field Size"
+    },
+    "IMAGE_PREVIEW_ALT": "Image preview"
+  },
+  "CROPS_FORM": {
+    "ADD_TITLE": "Add a New Crop",
+    "SUBTITLE": "Complete the information and save your crop",
+    "TITLE_LABEL": "Title",
+    "PLANTING_DATE_LABEL": "Planting Date",
+    "HARVEST_DATE_LABEL": "Harvest Date",
+    "FIELD_LABEL": "Field",
+    "STATUS_LABEL": "Status",
+    "SOIL_TYPE_LABEL": "Soil Type",
+    "SUNLIGHT_LABEL": "Sunlight",
+    "WATERING_LABEL": "Watering",
+    "CANCEL": "Cancel",
+    "SAVE": "Save"
+  },
+  "EMPTY": {
+    "NO_FIELDS": "No fields registered yet",
+    "NO_CROPS": "No crops registered yet",
+    "NO_UPCOMING_HARVESTS": "No upcoming harvests yet",
+    "NO_UPCOMING_TASKS": "No upcoming tasks yet",
+    "NO_RECOMMENDATIONS": "No recommendations yet"
+  },
+  "GENERIC_RECOMMENDATIONS": {
+    "ADVICE_CHECK_CROPS": "Check the status of your crops",
+    "ADVICE_VIEW_TASKS": "Look at your upcoming tasks",
+    "ADVICE_PLAN_IRRIGATION": "Plan your irrigation",
+    "ADVICE_UPDATE_FIELDS": "Update your field information"
+  },
+  "NOTIFICATIONS": {
+    "CLOSE": "Close"
+  },
+  "AUTH": {
+    "NO_SESSION": "No active session. Please sign in again.",
+    "INVALID_USER": "Invalid user"
+  },
+  "DIALOGS": {
+    "TASK_NEW_TITLE": "New Task",
+    "TASK_EDIT_TITLE": "Edit Task",
+    "TASK_DESCRIPTION": "Description",
+    "TASK_DESCRIPTION_PLACEHOLDER": "Enter task description",
+    "TASK_DUE_DATE": "Due date",
+    "HISTORY_TITLE": "Update Progress History",
+    "HISTORY_LAST_WATERED": "Last Watered",
+    "HISTORY_LAST_FERTILIZED": "Last Fertilized",
+    "HISTORY_LAST_PESTS": "Last Pest Control"
+  },
+  "DATE": {
+    "FORMAT": "DD/MM/YYYY",
+    "FORMAT_HINT": "Use format DD/MM/YYYY",
+    "ERROR_INVALID_FORMAT": "Invalid date format. Use DD/MM/YYYY.",
+    "ERROR_OUT_OF_RANGE": "Date out of range.",
+    "ERROR_INVALID": "Invalid date."
+  }
+}

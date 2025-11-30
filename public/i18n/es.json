@@ -1,0 +1,260 @@
+{
+  "NAVBAR": {
+    "HOME": "Inicio",
+    "MENU": "Menú"
+  },
+  "SIDEBAR": {
+    "DASHBOARD": "Panel de control",
+    "MY_CROPS": "Mis cultivos",
+    "MY_FIELDS": "Mis campos",
+    "MY_TASKS": "Mis tareas",
+    "COMMUNITY": "Comunidad",
+    "MY_LOCATION": "Mi ubicación",
+    "LOCATION_NAME": "Fundo Santa Rosa",
+    "LOCATION_ANONYMOUS": "Ubicación Anónima"
+  },
+  "LANGUAGE": {
+    "SELECT": "Seleccionar idioma",
+    "ENGLISH": "Inglés",
+    "SPANISH": "Español"
+  },
+  "COMMON": {
+    "WELCOME": "Bienvenido",
+    "LOGOUT": "Cerrar sesión",
+    "PROFILE": "Perfil",
+    "DAYS": "Días",
+    "TODAY": "Hoy",
+    "TOMORROW": "Mañana",
+    "VIEW_ALL": "Ver Todo",
+    "CANCEL": "Cancelar",
+    "SAVE": "Guardar"
+  },
+  "LOGIN": {
+    "WELCOME_BACK": "¡Bienvenido de Nuevo!",
+    "USERNAME": "Usuario",
+    "PASSWORD": "Contraseña",
+    "SIGN_IN": "Iniciar sesión",
+    "NO_ACCOUNT": "¿No tienes una cuenta?",
+    "SIGN_UP": "Regístrate",
+    "MISSING_CREDENTIALS": "Por favor ingrese correo y contraseña.",
+    "INVALID_RESPONSE": "Respuesta inválida del servidor: falta token.",
+    "SUCCESS": "Inicio de sesión exitoso.",
+    "INVALID_CREDENTIALS": "Credenciales inválidas.",
+    "ERROR": "Error al intentar iniciar sesión."
+  },
+  "DASHBOARD": {
+    "WELCOME_BACK": "¡Bienvenido de nuevo!",
+    "MY_CROPS": "Mis cultivos",
+    "UPCOMING_HARVEST_DATE": "Próxima fecha de cosecha",
+    "UPCOMING_TASKS": "Tareas próximas",
+    "LATEST_RECOMMENDATIONS": "Últimas Recomendaciones",
+    "IN_DAYS": "En {{count}} días",
+    "CROPS": {
+      "TITLE": "Mis Cultivos",
+      "DESCRIPTION": "Maneja tus cultivos aquí",
+      "BUTTON": "Nuevo Cultivo",
+      "TOMATO": "Tomate",
+      "LETTUCE": "Lechuga",
+      "CARROT": "Zanahoria",
+      "WHEAT": "Trigo",
+      "CACAO": "Cacao",
+      "COFFEE": "Café",
+      "TABLE": {
+        "CROP": "Cultivo",
+        "PLANTING_DATE": "Fecha de siembra",
+        "HARVEST_DATE": "Fecha de cosecha",
+        "FIELD": "Parcela",
+        "STATUS": "Estado",
+        "ACTIONS": "Acciones"
+      }
+    },
+    "LOCATIONS": {
+      "PARCELA_SAN_JOSE": "Parcela San José",
+      "FUNDO_LOS_PINOS": "Fundo Los Pinos",
+      "FUNDO_SANTA_ROSA": "Fundo Santa Rosa"
+    },
+    "TASKS": {
+      "TITLE": "Mis Tareas",
+      "DESCRIPTION": "Organiza tus tareas aqui",
+      "BUTTON": "Tarea",
+      "TABLE": {
+        "TASK": "Tarea",
+        "DUE_DATE": "Fecha Limite",
+        "FIELD": "Campo",
+        "ACTIONS": "Acciones"
+      }
+    },
+    "RECOMMENDATIONS": {
+      "POTATO_FIELD": "Campo de Papas:",
+      "POTATO_ADVICE": "Necesita más exposición solar – ajustar redes de sombra.",
+      "MAIZE_FIELD": "Campo de Maíz:",
+      "MAIZE_ADVICE": "Continuar riego regular para mantener humedad del suelo.",
+      "TOMATO_FIELD": "Campo de Tomate:",
+      "TOMATO_ADVICE": "Nutrientes del suelo bajos – considerar fertilización."
+    }
+  },
+  "COMMUNITY": {
+    "TITLE": "Comunidad",
+    "DESCRIPTION": "Conecta con la comunidad mediante recomendaciones para tus cultivos",
+    "NEW_POST": "Nueva publicación",
+    "PLACEHOLDER_COMMENT": "Escribe tu recomendación...",
+    "PUBLISH": "Publicar",
+    "MESSAGES": {
+      "EMPTY_COMMENT": "El comentario está vacío",
+      "UNAUTHENTICATED": "Usuario no autenticado",
+      "INVALID_USER_ID": "ID de usuario inválido",
+      "PUBLISH_SUCCESS": "Recomendación publicada",
+      "PUBLISH_ERROR": "Error al publicar la recomendación",
+      "POST_SUCCESS": "Recomendación publicada",
+      "POST_ERROR": "Error al publicar la recomendación"
+    },
+    "CANCEL": "Cancelar",
+    "COMMENTS": "comentarios"
+  },
+  "FIELDS": {
+    "title": "Mis campos",
+    "description":"Administras tus campos aqui",
+    "days_left": "días restantes",
+    "NO_CROP_ASSIGNED": "Sin cultivo asignado"
+  },
+  "field_detail": {
+    "location": "Localización: ",
+    "field_size": "Tamaño del campo: ",
+    "crop": "Cultivo: ",
+    "planting_date": "Fecha de plantado: ",
+    "expected": "Fecha esperada de cosecha: ",
+    "harvest_date": "Fecha de cosecha: ",
+    "days_until_harvest": "Días hasta la cosecha: ",
+    "soil_type": "Tipo de suelo: ",
+    "watering": "Regado: ",
+    "sunlight": "Luz del sol: ",
+    "progress": {
+      "title": "Progreso e Historia",
+      "watered": "Regado el: ",
+      "fertilized": "Fertilizado el: ",
+      "pest": "Inspección de pestes el:"
+    },
+    "tasks": "Mis Tareas"
+  },
+  "DAYS": {
+    "SUNDAY": "Domingo",
+    "MONDAY": "Lunes",
+    "TUESDAY": "Martes",
+    "WEDNESDAY": "Miércoles",
+    "THURSDAY": "Jueves",
+    "FRIDAY": "Viernes",
+    "SATURDAY": "Sábado"
+  },
+  "BUTTONS": {
+    "VIEW_ALL": "Ver todo",
+    "SAVE": "Guardar"
+  },
+  "PROFILE": {
+    "title": "Mi Perfil",
+    "PERSONAL_INFO": {
+      "TITLE": "Información personal",
+      "NAME_PLACEHOLDER": "Nombre",
+      "EMAIL_PLACEHOLDER": "Correo electrónico",
+      "PHONE_PLACEHOLDER": "Número de teléfono",
+      "ID_PLACEHOLDER": "Documento de identidad",
+      "NOTIFICATIONS": "Notificaciones",
+      "LOCATION": "Ubicación",
+      "LOCATION_PUBLIC": "Mostrar mi ubicación públicamente",
+      "LOCATION_PUBLIC_HINT": "Si está activo, tu ubicación será visible en el sidebar"
+    },
+    "PASSWORD": {
+      "TITLE": "Cambiar contraseña",
+      "CURRENT_PLACEHOLDER": "Contraseña actual",
+      "NEW_PLACEHOLDER": "Nueva contraseña",
+      "CONFIRM_PLACEHOLDER": "Confirmar nueva contraseña",
+      "SAVE_BUTTON": "Guardar cambios"
+    },
+    "FOOTER": {
+      "LOGOUT": "Cerrar sesión",
+      "DELETE_ACCOUNT": "Eliminar cuenta"
+    },
+    "PHONE_INVALID": "El número de teléfono debe incluir prefijo internacional. Ejemplo: +51XXXXXXXX",
+    "EMAIL_CHANGED_LOGOUT": "Tu correo ha cambiado. Por seguridad, tu sesión se cerrará.",
+    "UPDATE_SUCCESS": "Datos actualizados",
+    "UPDATE_ERROR": "No se pudieron guardar los datos personales.",
+    "PASSWORD_FIELDS_INCOMPLETE": "Complete todos los campos de contraseña.",
+    "PASSWORD_MISMATCH": "Las nuevas contraseñas no coinciden.",
+    "PASSWORD_UPDATE_SUCCESS": "Contraseña actualizada correctamente.",
+    "PASSWORD_UPDATE_ERROR": "No se pudo cambiar la contraseña. Verifique la actual.",
+    "ACCOUNT_DELETE_CONFIRM": "¿Estás seguro de que deseas eliminar tu cuenta? Tus datos se borrarán y esta acción no se puede deshacer.",
+    "ACCOUNT_DELETE_SUCCESS": "Tu cuenta ha sido eliminada. ¡Hasta pronto!",
+    "ACCOUNT_DELETE_ERROR": "Hubo un error eliminando tu cuenta."
+  },
+  "NEW_FIELD": {
+    "BUTTONS": {
+      "VIEW_ALL": "Ver todo",
+      "SAVE": "Guardar",
+      "SAVING": "Guardando...",
+      "CANCEL": "Cancelar"
+    },
+    "ADD_FIELD": {
+      "TITLE": "Añadir nuevo campo de cultivo",
+      "UPLOAD_IMAGE": "Subir Imagen",
+      "FIELD_NAME_PLACEHOLDER": "Nombre del campo",
+      "LOCATION_PLACEHOLDER": "Ubicación",
+      "FIELD_SIZE_PLACEHOLDER": "Tamaño del campo"
+    },
+    "IMAGE_PREVIEW_ALT": "Vista previa de imagen"
+  },
+  "CROPS_FORM": {
+    "ADD_TITLE": "Añadir Nuevo Cultivo",
+    "SUBTITLE": "Completa la información y guarda tu cultivo",
+    "TITLE_LABEL": "Título",
+    "PLANTING_DATE_LABEL": "Fecha de siembra",
+    "HARVEST_DATE_LABEL": "Fecha de cosecha",
+    "FIELD_LABEL": "Campo",
+    "STATUS_LABEL": "Estado",
+    "SOIL_TYPE_LABEL": "Tipo de suelo",
+    "SUNLIGHT_LABEL": "Luz solar",
+    "WATERING_LABEL": "Riego",
+    "CANCEL": "Cancelar",
+    "SAVE": "Guardar",
+    "FORM_INCOMPLETE": "Por favor completa todos los campos y selecciona un campo.",
+    "CREATE_SUCCESS": "Cultivo creado exitosamente.",
+    "CREATE_ERROR": "No se pudo crear el cultivo. Intenta nuevamente.",
+    "CANCELLED": "Acción cancelada"
+  },
+  "EMPTY": {
+    "NO_FIELDS": "Aún no hay campos registrados",
+    "NO_CROPS": "Aún no hay cultivos registrados",
+    "NO_UPCOMING_HARVESTS": "Aún no hay cosechas próximas",
+    "NO_UPCOMING_TASKS": "Aún no hay tareas próximas",
+    "NO_RECOMMENDATIONS": "Aún no hay recomendaciones"
+  },
+  "GENERIC_RECOMMENDATIONS": {
+    "ADVICE_CHECK_CROPS": "Revisa el estado de tus cultivos",
+    "ADVICE_VIEW_TASKS": "Mira tus tareas próximas",
+    "ADVICE_PLAN_IRRIGATION": "Planifica tu riego",
+    "ADVICE_UPDATE_FIELDS": "Actualiza información de tus campos"
+  },
+  "NOTIFICATIONS": {
+    "CLOSE": "Cerrar"
+  },
+  "AUTH": {
+    "NO_SESSION": "No hay sesión activa. Inicia sesión nuevamente.",
+    "INVALID_USER": "Usuario inválido"
+  },
+  "DIALOGS": {
+    "TASK_NEW_TITLE": "Nueva Tarea",
+    "TASK_EDIT_TITLE": "Editar Tarea",
+    "TASK_DESCRIPTION": "Descripción",
+    "TASK_DESCRIPTION_PLACEHOLDER": "Ingresa la descripción de la tarea",
+    "TASK_DUE_DATE": "Fecha de vencimiento",
+    "HISTORY_TITLE": "Actualizar historial de progreso",
+    "HISTORY_LAST_WATERED": "Último riego",
+    "HISTORY_LAST_FERTILIZED": "Última fertilización",
+    "HISTORY_LAST_PESTS": "Último control de plagas"
+  },
+  "DATE": {
+    "FORMAT": "DD/MM/YYYY",
+    "FORMAT_HINT": "Usa el formato DD/MM/YYYY",
+    "ERROR_INVALID_FORMAT": "Formato inválido. Usa DD/MM/YYYY.",
+    "ERROR_OUT_OF_RANGE": "Fecha fuera de rango.",
+    "ERROR_INVALID": "Fecha inválida."
+  }
+}

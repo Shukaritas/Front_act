@@ -1,0 +1,32 @@
+<h2 mat-dialog-title>{{ 'EDIT_CROP.TITLE' | translate }}</h2>
+
+<mat-dialog-content>
+  <div class="form-container">
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>{{ 'EDIT_CROP.CROP_NAME' | translate }}</mat-label>
+      <input
+        matInput
+        [(ngModel)]="data.title"
+        placeholder="e.g., Tomato"
+        required
+      />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>{{ 'EDIT_CROP.STATUS' | translate }}</mat-label>
+      <mat-select [(ngModel)]="data.status" required>
+        <mat-option *ngFor="let status of statuses" [value]="status">
+          <span class="status-chip" [ngClass]="status.toLowerCase()">
+            {{ status }}
+          </span>
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button (click)="onCancel()">{{ 'EDIT_CROP.CANCEL' | translate }}</button>
+  <button mat-raised-button class="save-btn" color="primary" (click)="onSave()">{{ 'EDIT_CROP.SAVE' | translate }}</button>
+</mat-dialog-actions>
+
